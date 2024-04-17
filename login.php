@@ -134,7 +134,7 @@
                         success: function(response){
                             console.log(response);
                             if(response.success){
-                                window.location.href = '/'+response.role+"/dashboard.php";
+                                window.location.href = '/dashboard/index.php";
                             } else {
                                 $("#errorMsg").removeClass("d-none");
                                 $("#loginBtn").attr("disabled", false);
